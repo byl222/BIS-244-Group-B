@@ -20,8 +20,8 @@ geom_line(data = temp,
                         color="blue"))
 
 graph + labs(x= "Year", 
-             y = "Tutition in U.S. Dollars",
-             title = "Tuition Increase Public vs. Private Universities")+
+     y = "Tutition in U.S. Dollars",
+     title = "Tuition Increase Public vs. Private Universities")+
   scale_color_discrete(name="Type", labels = c("Public", "Private"))
 
 
